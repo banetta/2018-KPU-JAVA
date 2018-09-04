@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author banet
+ *
+ */
+module HelloWorld {
+}
