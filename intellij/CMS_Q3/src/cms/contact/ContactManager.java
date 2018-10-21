@@ -9,8 +9,8 @@ public class ContactManager{
     //Contact carr[];
     BasicContact bcon[];
     FullContact fcon[];
-    int bindex=0;
-    int findex=0;
+    private int bindex=0;
+    private int findex=0;
     Scanner sc;
 
     public ContactManager(int n)
