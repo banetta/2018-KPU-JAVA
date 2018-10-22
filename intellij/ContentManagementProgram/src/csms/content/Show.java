@@ -10,10 +10,13 @@ public class Show extends Content {
     }
 
     public int getPrice(){
-        int price;
+        int price = 0;
         price = (this.getSize()-1000) * 3;
 
-        return super.getPrice()+price;
+        if (price > 0)
+            return 1000+price;
+        else
+            return 1000;
     }
 
     public String getChannel(){return Channel;}

@@ -10,10 +10,11 @@ public class Movie extends Content {
     }
 
     public int getPrice(){
-        int price;
-        price = (this.getSize()-1000);
 
-        return super.getPrice()+price;
+        if (this.getSize() > 1000)
+            return this.getSize();
+        else
+            return 1000;
     }
 
     public String getDirector(){return Director;}
